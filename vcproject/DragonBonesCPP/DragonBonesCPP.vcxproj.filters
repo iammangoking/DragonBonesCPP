@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="原始程式檔\dragonbones">
+      <UniqueIdentifier>{83951781-8ea7-4eb8-9374-a62edfd88b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\dragonbones">
+      <UniqueIdentifier>{4efa215f-660e-456b-8d56-5539dba90a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\renderer">
+      <UniqueIdentifier>{96fd3cc0-bb93-4fb4-b2d6-f29bf4f51f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\renderer">
+      <UniqueIdentifier>{901ad1b9-45f6-42d5-812d-ee586d3b9c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\dragonbones\animation">
+      <UniqueIdentifier>{661a7754-5173-49b8-aec7-862c608f0509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\dragonbones\animation">
+      <UniqueIdentifier>{413b652e-8d1a-4d31-9e78-cd09191ac187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\dragonbones\core">
+      <UniqueIdentifier>{5b881273-de1e-4cb7-a35f-7dcbb520dcd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\dragonbones\core">
+      <UniqueIdentifier>{cdcb17d9-258c-4a45-95fc-9116c2629baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\dragonbones\display">
+      <UniqueIdentifier>{e0b83e31-a975-443d-9a12-d473a135ca52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\dragonbones\events">
+      <UniqueIdentifier>{1a4f7bf4-39c3-4553-b59d-b2ff3a949071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\dragonbones\events">
+      <UniqueIdentifier>{92b9ec29-7763-4f8e-97d7-d22a17bd5213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\dragonbones\factories">
+      <UniqueIdentifier>{28471b5c-103f-47aa-b270-afdd453d9a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\dragonbones\factories">
+      <UniqueIdentifier>{83ba6732-d74a-49a4-b18f-81a933ec475f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\dragonbones\objects">
+      <UniqueIdentifier>{d1c25e96-cc7a-444c-ac7a-ce9a4a501d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\dragonbones\objects">
+      <UniqueIdentifier>{dfa8731d-c38f-4985-888a-9cef2278c99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\dragonbones\textures">
+      <UniqueIdentifier>{187c97e2-c418-48cf-a640-ad48c101a4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="原始程式檔\dragonbones\utils">
+      <UniqueIdentifier>{5cd14216-fca1-4e1f-b908-137c885998d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔\dragonbones\utils">
+      <UniqueIdentifier>{60143b65-7400-47b4-8ab7-4a5b70a77702}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\Armature.h">
+      <Filter>標頭檔\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\Bone.h">
+      <Filter>標頭檔\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\DragonBonesHeaders.h">
+      <Filter>標頭檔\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\Slot.h">
+      <Filter>標頭檔\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\renderer\cocos2d-x-2.x\CCDragonBones.h">
+      <Filter>標頭檔\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\renderer\cocos2d-x-2.x\Cocos2dxAtlasNode.h">
+      <Filter>標頭檔\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\renderer\cocos2d-x-2.x\Cocos2dxDisplayBridge.h">
+      <Filter>標頭檔\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\renderer\cocos2d-x-2.x\Cocos2dxFactory.h">
+      <Filter>標頭檔\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\renderer\cocos2d-x-2.x\Cocos2dxTextureAtlas.h">
+      <Filter>標頭檔\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\animation\TimelineState.h">
+      <Filter>標頭檔\dragonbones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\animation\IAnimatable.h">
+      <Filter>標頭檔\dragonbones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\animation\AnimationState.h">
+      <Filter>標頭檔\dragonbones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\animation\Animation.h">
+      <Filter>標頭檔\dragonbones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\core\DBObject.h">
+      <Filter>原始程式檔\dragonbones\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\core\DragonBones.h">
+      <Filter>標頭檔\dragonbones\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\display\IDisplayBridge.h">
+      <Filter>標頭檔\dragonbones\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\events\SoundEventManager.h">
+      <Filter>標頭檔\dragonbones\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\events\SoundEvent.h">
+      <Filter>標頭檔\dragonbones\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\events\FrameEvent.h">
+      <Filter>標頭檔\dragonbones\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\events\Event.h">
+      <Filter>標頭檔\dragonbones\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\events\ArmatureEvent.h">
+      <Filter>標頭檔\dragonbones\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\events\AnimationEvent.h">
+      <Filter>標頭檔\dragonbones\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\factories\BaseFactory.h">
+      <Filter>標頭檔\dragonbones\factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\XMLDataParser.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\TransformTimeline.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\TransformFrame.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\Timeline.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\TextureAtlasData.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\SlotData.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\SkinData.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\SkeletonData.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\Frame.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\DisplayData.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\DBTransform.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\dbtinyxml2.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\BoneData.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\ArmatureData.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\objects\AnimationData.h">
+      <Filter>標頭檔\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\textures\ITextureAtlas.h">
+      <Filter>標頭檔\dragonbones\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\utils\TransformUtil.h">
+      <Filter>標頭檔\dragonbones\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\utils\preDB.h">
+      <Filter>標頭檔\dragonbones\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\utils\DBGeometry.h">
+      <Filter>標頭檔\dragonbones\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\utils\DBDataUtil.h">
+      <Filter>標頭檔\dragonbones\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\utils\ConstValues.h">
+      <Filter>標頭檔\dragonbones\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\utils\checkBytesTailisXML.h">
+      <Filter>標頭檔\dragonbones\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dragonbones\utils\BytesType.h">
+      <Filter>標頭檔\dragonbones\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\Slot.cpp">
+      <Filter>原始程式檔\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\Bone.cpp">
+      <Filter>原始程式檔\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\Armature.cpp">
+      <Filter>原始程式檔\dragonbones</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\renderer\cocos2d-x-2.x\CCDragonBones.cpp">
+      <Filter>原始程式檔\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\renderer\cocos2d-x-2.x\Cocos2dxAtlasNode.cpp">
+      <Filter>原始程式檔\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\renderer\cocos2d-x-2.x\Cocos2dxDisplayBridge.cpp">
+      <Filter>原始程式檔\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\renderer\cocos2d-x-2.x\Cocos2dxFactory.cpp">
+      <Filter>原始程式檔\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\renderer\cocos2d-x-2.x\Cocos2dxTextureAtlas.cpp">
+      <Filter>原始程式檔\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\animation\TimelineState.cpp">
+      <Filter>原始程式檔\dragonbones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\animation\AnimationState.cpp">
+      <Filter>原始程式檔\dragonbones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\animation\Animation.cpp">
+      <Filter>原始程式檔\dragonbones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\core\DBObject.cpp">
+      <Filter>原始程式檔\dragonbones\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\core\DragonBones.cpp">
+      <Filter>標頭檔\dragonbones\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\events\SoundEventManager.cpp">
+      <Filter>原始程式檔\dragonbones\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\events\SoundEvent.cpp">
+      <Filter>原始程式檔\dragonbones\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\events\FrameEvent.cpp">
+      <Filter>原始程式檔\dragonbones\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\events\Event.cpp">
+      <Filter>原始程式檔\dragonbones\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\events\ArmatureEvent.cpp">
+      <Filter>原始程式檔\dragonbones\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\events\AnimationEvent.cpp">
+      <Filter>原始程式檔\dragonbones\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\factories\BaseFactory.cpp">
+      <Filter>原始程式檔\dragonbones\factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\objects\XMLDataParser.cpp">
+      <Filter>原始程式檔\dragonbones\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\objects\TransformTimeline.cpp">
+      <Filter>原始程式檔\dragonbones\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\objects\DisplayData.cpp">
+      <Filter>原始程式檔\dragonbones\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\objects\dbtinyxml2.cpp">
+      <Filter>原始程式檔\dragonbones\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\utils\TransformUtil.cpp">
+      <Filter>原始程式檔\dragonbones\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\utils\DBGeometry.cpp">
+      <Filter>原始程式檔\dragonbones\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\utils\DBDataUtil.cpp">
+      <Filter>原始程式檔\dragonbones\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\utils\ConstValues.cpp">
+      <Filter>原始程式檔\dragonbones\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dragonbones\utils\BytesType.cpp">
+      <Filter>原始程式檔\dragonbones\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
